@@ -6,7 +6,7 @@
 
 ## 安装与更新
 
-1. 下载或克隆项目；如下载 ZIP，先解压。
+1. 在 [GitHub 仓库](https://github.com/Vist233/looklook-answer) 点击 **Code → Download ZIP**，下载后解压；也可使用 Git 克隆。
 2. Chrome 打开 `chrome://extensions`，开启开发者模式。
 3. 点击“加载已解压的扩展程序”，选择包含 `manifest.json` 的项目目录。
 4. 将“看题 · Page Vision”固定到工具栏。

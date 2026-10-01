@@ -46,7 +46,7 @@ MiMo OpenAI 使用 `thinking.type: enabled` 和 `max_completion_tokens: 8192`。
 
 ## Git 上传与共享
 
-尚未指定托管平台、仓库地址或许可证。本次只准备文件，不推送。
+项目仓库为 [Vist233/looklook-answer](https://github.com/Vist233/looklook-answer)，主分支为 `main`，SSH 远端为 `git@github.com:Vist233/looklook-answer.git`。当前尚未指定许可证。以下步骤适用于后续发布及其他使用者自行托管。
 
 1. 只上传本项目，排除浏览器配置、用户历史和外部备份。
 2. 检查 `.gitignore`、暂存内容和密钥扫描；忽略规则不移除已被跟踪文件。
