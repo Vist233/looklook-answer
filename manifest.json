@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "看题 · Page Vision",
+  "version": "1.7.0",
+  "description": "网页点击或 URL 改变后等待 1.6 秒截图分析，不监听 DOM、鼠标移动或视频。",
+  "minimum_chrome_version": "116",
+  "permissions": ["activeTab", "scripting", "storage", "offscreen"],
+  "optional_host_permissions": ["https://*/*", "http://*/*"],
+  "background": { "service_worker": "worker.mjs", "type": "module" },
+  "action": { "default_popup": "popup.html", "default_title": "看题 · 开启截图分析" }
+}

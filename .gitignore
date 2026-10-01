@@ -1,0 +1,19 @@
+# Local credentials and user exports
+.env
+.env.*
+!.env.example
+secrets/
+*.pem
+analysis-history*.json
+history-export*.json
+
+# Generated artifacts and local dependencies
+node_modules/
+__pycache__/
+*.pyc
+outputs/
+*.zip
+*.tar.gz
+tests/*-results.json
+.DS_Store
+Thumbs.db
